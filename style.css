@@ -1,0 +1,28 @@
+body,html{
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+.wrapper{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 150px;
+}
+button{
+  color: white;
+  background-color: rgb(4, 93, 182);
+  
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
