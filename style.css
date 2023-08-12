@@ -20,7 +20,7 @@ body{
 button{
   color: white;
   background-color: rgb(4, 93, 182);
-  
+  cursor: pointer;
   padding: 8px 10px;
   border: none;
   border-radius: 5px;
