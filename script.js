@@ -6,7 +6,8 @@ const activateEyeDropper = async () =>{
     const eyeDropper = new EyeDropper();
     const {sRGBHex} = await eyeDropper.open();
     navigator.clipboard.writeText(sRGBHex);
-    resultDiv.innerHTML=sRGBHex;
+    let hex = sRGBHex;
+    resultDiv.innerHTML +=hex;
     console.log(sRGBHex);
 
   }
